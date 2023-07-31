@@ -1,0 +1,45 @@
+1000               # number of iterations
+1.0 0 1.0        # Starting values of VA, VD and VE
+1.0e-08            # tolerance level
+IgA_adjphen_reduced.txt               # phenotype file
+2                  # trait position in phenotype file
+0                  # number of fixed factors
+0                  # positions of fixed factors in phenotype file
+0                  # number of covariables
+0                  # positions of covariables in phenotype file
+2034               # number of individuals genotyped
+26                  # number of chromosomes
+284 geno/chr1
+340 geno/chr2
+313 geno/chr3
+155 geno/chr4
+126 geno/chr5
+170 geno/chr6
+119 geno/chr7
+122 geno/chr8
+113 geno/chr9
+84 geno/chr10
+50 geno/chr11
+104 geno/chr12
+102 geno/chr13
+45 geno/chr14
+98 geno/chr15
+103 geno/chr16
+68 geno/chr17
+66 geno/chr18
+76 geno/chr19
+50 geno/chr20
+48 geno/chr21
+72 geno/chr22
+33 geno/chr23
+48 geno/chr24
+60 geno/chr25
+48 geno/chr26
+iga_greml_reduced.txt    # output file for GREML
+iga_gblup_reduced.txt    # output file for GBLUP
+def_Q              1  # definition of genetic relationship
+use_ai_reml        1
+iter_ai_reml_start 3
+#missing_phen_val   -999
+#map_file           map.txt
+output_mrk_effect  iga_snpe_reduced.txt
